@@ -1,0 +1,64 @@
+body{
+  background-image: radial-gradient(circle, #051937, #162151, #332569, #57247c, #7f1789);
+  
+}
+
+.App {
+  text-align: center;
+
+}
+
+#montexte{
+  background-image: radial-gradient(circle, #051937, #051937, #051937, #051937, #051937);
+  color: antiquewhite;
+}
+
+#CommandButton{
+  border-radius: 20px;
+  background-color: crimson;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+#CommandButton:hover{
+  text-decoration: ghostwhite;
+  background-color: darkgreen;
+}
+
+
+section{
+  width: 500px;
+  height: 500px;
+  border: 3px solid white;
+  /*transform:scaleY(-1);*/
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
